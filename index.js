@@ -47,17 +47,18 @@ import './style.css';
 // }
 // startsWith(nombres);
 
-function factotial(numero) {
-  let factorial = 0;
-  if (typeof numero == 'number') {
-    for (let i = 0; i <= numero.valueOf; i++) {
-      factorial *= numero[i];
-    }
-    console.log(factorial);
-  } else {
-    throw new Error('No es un número');
-  }
-  console.log(factorial);
-}
+// Crear una función que tome un número como argumento y devuelva el factorial de ese número.
 
-factotial(5);
+// function factotial(numero) {
+//   let factorial = 1;
+//   if (typeof numero == 'number') {
+//     for (let i = 1; i <= numero; i++) {
+//       factorial *= i;
+//     }
+//   } else {
+//     throw new Error('No es un número');
+//   }
+//   console.log(factorial);
+// }
+
+// factotial(5);
